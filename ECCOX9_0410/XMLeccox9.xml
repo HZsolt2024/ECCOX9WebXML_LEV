@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<vendeglatas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+
+
+
+    <!--Ettermek-->
+    <Etterem ekod="e1">
+        <nev>Trofea</nev>
+        <Cim>
+            <Varos>Budapest</Varos>
+            <Utca>Visegradi</Utca>
+            <Hazszam>13</Hazszam>
+        </Cim>
+        <Csillag>4</Csillag>
+    </Etterem>
+
+    <Etterem ekod="e2">
+        <nev>Gundel</nev>
+        <Cim>
+            <Varos>Budapest</Varos>
+            <Utca>Gundel Károly</Utca>
+            <Hazszam>4</Hazszam>
+        </Cim>
+        <Csillag>4</Csillag>
+    </Etterem>
+    
+
+
+
+    <!--Szakacsok-->
+    <Szakacs SZkod="sz1" E_SZ="e1">
+        <!-- Vegzettsegek-->
+        <Vegzettseg>Le Cordon Bleu</Vegzettseg>
+        <Vegzettseg>Szakközépiskola</Vegzettseg>
+        <Vegzettseg>Paul Bocuse Institute</Vegzettseg>
+        <Reszleg>Saucier</Reszleg>
+        <Nev>Ötlet Elek</Nev>
+    </Szakacs>
+
+    <Szakacs SZkod="sz2" E_SZ="e2">
+        <!-- Vegzettsegek-->
+        <Vegzettseg>Le Cordon Bleu</Vegzettseg>
+        <Vegzettseg>Szakközépiskola</Vegzettseg>
+        <Reszleg>Entremetier</Reszleg>
+        <Nev>Kocsis Tibor</Nev>
+    </Szakacs>
+
+    <Szakacs SZkod="sz3" E_SZ="e2">
+        <!-- Vegzettsegek-->
+        <Vegzettseg>Szakközépiskola</Vegzettseg>
+        <Reszleg>Gardemanger</Reszleg>
+        <Nev>Tálas Levente</Nev>
+    </Szakacs>
+
+    <Szakacs SZkod="sz4" E_SZ="e2">
+        <!-- Vegzettsegek-->
+        <Vegzettseg>Le Cordon Bleu</Vegzettseg>
+        <Vegzettseg>Paul Bocuse Institute</Vegzettseg>
+        <Reszleg>Entremetier</Reszleg>
+        <Nev>Szűcs Judit</Nev>
+    </Szakacs>
+    
+
+
+
+    <!--Gyakornokok-->
+    <Gyakornok GYkod="gy1" E_GY="e1">
+        <Nev>Bordas David</Nev>
+        <Gyakorlat>
+            <Kezdete>2020.08.20.</Kezdete>
+            <Idotartam>2 hónap</Idotartam>
+        </Gyakorlat>
+        <!--Muszakok-->
+        <Muszak>Délelőtt</Muszak>
+        <Muszak>Este</Muszak>
+    </Gyakornok>
+
+    <Gyakornok GYkod="gy2" E_GY="e2">
+        <Nev>Szilágyi István</Nev>
+        <Gyakorlat>
+            <Kezdete>2021.06.01.</Kezdete>
+            <Idotartam>4 hónap</Idotartam>
+        </Gyakorlat>
+        <!--Muszakok-->
+        <Muszak>Délután</Muszak>
+    </Gyakornok>
+
+    <Gyakornok GYkod="gy3" E_GY="e1">
+        <Nev>Szentpétery Ferenc</Nev>
+        <Gyakorlat>
+            <Kezdete>2021.01.01.</Kezdete>
+            <Idotartam>10 hónap</Idotartam>
+        </Gyakorlat>
+        <!--Muszakok-->
+        <Muszak>Délelőtt</Muszak>
+        <Muszak>Délután</Muszak>
+    </Gyakornok>
+
+
+
+
+    <!--Foszakacs-->
+    <Foszakacs Fkod="f1" E_F="e1">
+        <Nev>Havas Péter</Nev>
+        <Eletkor>35</Eletkor>
+        <!--Vegzettsegek-->
+        <Vegzettseg>Szakközépiskola</Vegzettseg>
+        <Vegzettseg>Paul Bocuse Institue</Vegzettseg>
+    </Foszakacs>
+
+    <Foszakacs Fkod="f2" E_F="e2">
+        <Nev>Nagy Károly</Nev>
+        <Eletkor>30</Eletkor>
+        <!--Vegzettsegek-->
+        <Vegzettseg>Le Cordon Bleu</Vegzettseg>
+    </Foszakacs>
+
+
+    <!--Vendegek-->
+    <Vendeg Vkod="v1">
+        <Nev>Fekete Péter</Nev>
+        <Eletkor>21</Eletkor>
+        <Cim>
+            <Varos>Miskolc</Varos>
+            <Utca>Márton</Utca>
+            <Hazszam>17</Hazszam>
+        </Cim>
+    </Vendeg>
+   
+    <Vendeg Vkod="v2">
+        <Nev>Bordás Áron</Nev>
+        <Eletkor>25</Eletkor>
+        <Cim>
+            <Varos>Eger</Varos>
+            <Utca>Dobó</Utca>
+            <Hazszam>12</Hazszam>
+        </Cim>
+    </Vendeg>
+    
+    <Vendeg Vkod="v3">
+        <Nev>Kiss Hajnalka</Nev>
+        <Eletkor>26</Eletkor>
+        <Cim>
+            <Varos>Miskolc</Varos>
+            <Utca>Egyetem-város</Utca>
+            <Hazszam>1</Hazszam>
+        </Cim>
+    </Vendeg>
+
+
+    <!--Rendelesek-->
+    <Rendeles E_V_E="e1" E_V_V="v1">
+        <Osszeg>9000</Osszeg>
+        <Etel>Steak</Etel>
+    </Rendeles>
+
+    <Rendeles E_V_E="e2" E_V_V="v2">
+        <Osszeg>8000</Osszeg>
+        <Etel>Kaviár</Etel>
+    </Rendeles>
+
+    <Rendeles E_V_E="e1" E_V_V="v3">
+        <Osszeg>20000</Osszeg>
+        <Etel>Zsíros kenyér</Etel>
+    </Rendeles>
+
+    <Rendeles E_V_E="e2" E_V_V="v3">
+        <Osszeg>300</Osszeg>
+        <Etel>Mackó sajt</Etel>
+    </Rendeles>
+
+</vendeglatas>
