@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<eccox9_orarend xmlns:xs=""></eccox9_orarend>
+<eccox9_orarend>
 
     <ora id="01" tipus="előadás">
         <targy>Operációs rendszerek</targy>
@@ -37,3 +37,4 @@
         <oktato>Dr. Veres Laura</oktato>
         <szak>Programtervező informatikus</szak>
     </ora>
+</eccox9_orarend>
