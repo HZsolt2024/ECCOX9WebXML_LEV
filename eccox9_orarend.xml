@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<eccox9_orarend xmlns:xs=""></eccox9_orarend>
+
+    <ora id="01" tipus="előadás">
+        <targy>Operációs rendszerek</targy>
+        <idopont>
+            <nap>péntek</nap>
+            <tol>13</tol>
+            <ig>18</ig>
+        </idopont>
+        <helyszín>Inf24</helyszín>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="02" tipus="gyakorlat">
+        <targy>Robotika</targy>
+        <idopont>
+            <nap>szombat</nap>
+            <tol>09</tol>
+            <ig>13</ig>
+        </idopont>
+        <helyszín>Inf24</helyszín>
+        <oktato>Perlaki Attila</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="03" tipus="előadás">
+        <targy>Számításelmélet</targy>
+        <idopont>
+            <nap>szombat</nap>
+            <tol>14</tol>
+            <ig>18</ig>
+        </idopont>
+        <helyszín>online teams</helyszín>
+        <oktato>Dr. Veres Laura</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
