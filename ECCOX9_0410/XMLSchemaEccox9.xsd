@@ -66,7 +66,7 @@
     </xs:unique>
 </xs:element>
 
-<!--Kompley tipusok definiálása-->
+<!--Komplex tipusok definiálása-->
 <xs:complexType name="etteremTipus">
     <xs:sequence>
     <xs:element name="nev" type="xs:string"/>
