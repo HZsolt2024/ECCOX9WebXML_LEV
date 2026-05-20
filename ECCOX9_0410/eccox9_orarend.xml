@@ -37,4 +37,28 @@
         <oktato>Dr. Veres Laura</oktato>
         <szak>Programtervező informatikus</szak>
     </ora>
+
+    <ora id="04" tipus="előadás">
+        <targy>Webbkönyvtárak</targy>
+        <idopont>
+            <nap>szombat</nap>
+            <tol>9</tol>
+            <ig>12</ig>
+        </idopont>
+        <helyszín>116. terem</helyszín>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="05" tipus="előadás">
+        <targy>Hálózati architektúrák és protokollok</targy>
+        <idopont>
+            <nap>szombat</nap>
+            <tol>14</tol>
+            <ig>18</ig>
+        </idopont>
+        <helyszín>Discord</helyszín>
+        <oktato>Mileff Péter</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
 </eccox9_orarend>
