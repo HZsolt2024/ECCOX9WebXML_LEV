@@ -18,7 +18,7 @@
             <xs:selector xpath="Etterem"/>
             <xs:field xpath="@Ekod"/>
         </xs:key>
-
+        
         <xs:key name="foszakalcs_kulcs">
             <xs:selector xpath="Foszakacs"/>
             <xs:field xpath="@Fkod"/>

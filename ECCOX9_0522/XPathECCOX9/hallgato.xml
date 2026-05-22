@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <hallgato id ="01">
+        <keresztnev>Péter</keresztnev>
+        <vezeteknev>Fekete</vezeteknev>
+        <becenev>petya</becenev>
+        <kor>22</kor>
+    </hallgato>
+
+    <hallgato id ="02">
+        <keresztnev>Laura</keresztnev>
+        <vezeteknev>Toth</vezeteknev>
+        <becenev>lau</becenev>
+        <kor>19</kor>
+    </hallgato>
+
+    <hallgato id ="03">
+        <keresztnev>Bence</keresztnev>
+        <vezeteknev>Kis</vezeteknev>
+        <becenev>kisb</becenev>
+        <kor>20</kor>
+    </hallgato>
+
+    <hallgato id ="04">
+        <keresztnev>Ágnes</keresztnev>
+        <vezeteknev>Szabó</vezeteknev>
+        <becenev>ági</becenev>
+        <kor>31</kor>
+    </hallgato>
+
+    <hallgato id ="05">
+        <keresztnev>László</keresztnev>
+        <vezeteknev>Nagy</vezeteknev>
+        <becenev>lackika</becenev>
+        <kor>21</kor>
+    </hallgato>
+</class>

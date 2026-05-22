@@ -1,0 +1,71 @@
+{
+  "Eccox9_orarend": {
+    "ora": [
+      {
+        "@id": "01",
+        "@tipus": "előadás",
+        "targy": "Operációs rendszerek",
+        "idopont": {
+          "nap": "péntek",
+          "tol": 13,
+          "ig": 18
+        },
+        "helyszín": "Inf24",
+        "oktato": "Dr. Bednarik László",
+        "szak": "Programtervező informatikus"
+      },
+      {
+        "@id": "02",
+        "@tipus": "gyakorlat",
+        "targy": "Robotika",
+        "idopont": {
+          "nap": "szombat",
+          "tol": 9,
+          "ig": 13
+        },
+        "helyszín": "Inf24",
+        "oktato": "Perlaki Attila",
+        "szak": "Programtervező informatikus"
+      },
+      {
+        "@id": "03",
+        "@tipus": "előadás",
+        "targy": "Számításelmélet",
+        "idopont": {
+          "nap": "szombat",
+          "tol": 14,
+          "ig": 18
+        },
+        "helyszín": "online teams",
+        "oktato": "Dr. Veres Laura",
+        "szak": "Programtervező informatikus"
+      },
+      {
+        "@id": "04",
+        "@tipus": "előadás",
+        "targy": "Webbkönyvtárak",
+        "idopont": {
+          "nap": "szombat",
+          "tol": 9,
+          "ig": 12
+        },
+        "helyszín": "116. terem",
+        "oktato": "Dr. Bednarik László",
+        "szak": "Programtervező informatikus"
+      },
+      {
+        "@id": "05",
+        "@tipus": "előadás",
+        "targy": "Hálózati architektúrák és protokollok",
+        "idopont": {
+          "nap": "szombat",
+          "tol": 14,
+          "ig": 18
+        },
+        "helyszín": "Discord",
+        "oktato": "Mileff Péter",
+        "szak": "Programtervező informatikus"
+      }
+    ]
+  }
+}
